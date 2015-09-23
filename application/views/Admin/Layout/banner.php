@@ -1,0 +1,1 @@
+<div id='banner'>Layout CodeIgniter</div>

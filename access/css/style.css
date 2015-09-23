@@ -1,0 +1,208 @@
+/* CSS Document */
+.navbar-default{background-color:pink;}
+ul{
+	padding:0px;
+	margin:0px;
+}
+ul, li{
+	list-style:none;
+}
+.top_ads li{
+	
+	 
+}
+.top_ads {
+
+	
+	}
+.t3-mainnav-wrap::before {
+    background: rgba(0, 0, 0, 0) -moz-linear-gradient(left center , #ffffff 0px, #e3e3e3 10%, #e3e3e3 80%, #ffffff 100%) repeat scroll 0 0;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.t3-mainnav-wrap::after {
+    background: rgba(0, 0, 0, 0) -moz-linear-gradient(left center , #ffffff 0px, #e3e3e3 10%, #e3e3e3 80%, #ffffff 100%) repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+*::before, *::after {
+    box-sizing: border-box;
+}
+.t3-mainnav-wrap {
+    position: relative;
+    z-index: 999;
+}
+* {
+    box-sizing: border-box;
+}
+*::before, *::after {
+    box-sizing: border-box;
+}
+.focus li ul li a:focus,.focus li ul li a:hover{ background: #EEEEEE
+}
+#footer {
+  width: 100%;
+  margin: 0 auto;
+  height: 80px;
+  position: absolute;
+}
+#list{
+	
+	width:100%; height:100px;}
+.news ul li {
+	margin-bottom:10px;
+	margin-top:10px;
+		
+	
+}
+.news2 ul li {
+	margin-bottom:10px;
+	margin-top:10px;
+		
+	
+}
+.logo_footer table tr td img{
+	width:100%;
+	
+	}
+.news_left ul li{ height:195px;
+	margin-bottom:10px;
+	}
+.news_left table tr td img{
+	width: 80%;
+	margin-bottom:10px;
+	margin-right:20px;	
+	
+}
+.news table tr td img{
+	width: 100px;
+	height:70px;
+	margin-right:5px;
+	
+	margin-bottom:10px;
+	
+	
+}
+
+.news2 table tr td img{
+	width: 150px;
+	height:110px;
+	padding:5px;
+	padding-left:0px;
+	
+	
+}
+
+
+.footer_anh  ul li a img{
+	width: 25%;
+	height:100px;
+	float:left;
+	padding:10px;
+	;	
+	
+	}
+.news1 table tr td img{
+	width: 100px;
+	height:70px;
+	margin-right:5px;
+	
+	margin-bottom:10px;
+	
+}
+.news table tr td p{
+	text-align: left; font-size:14px;}
+.news2 table tr td p{
+	text-align: left; font-size:14px; }
+
+.md_4 ul li a img {
+	 width:100%;
+	 magin-bottom:30px;
+	 magin-top:20px;
+	height:210px;
+	}
+
+.md_44 ul li a img {
+	 width:100%;
+	
+	height:210px;
+	}
+.md_4 {
+	 padding-bottom:15px;
+	 magin-top:15px;
+	 height:350px
+
+	}
+.md_44 {
+	 padding-bottom:0px;
+	 magin-top:30px;
+     
+	}
+.md_42 ul li a img {
+	 width:100%;
+	 padding-bottom:15px;
+	 magin-top:30px;
+	 height:175px;
+	
+	}
+.md_42 {
+	 padding-bottom:30px;
+	 magin-top:30px;
+	 height:250px; 
+	}
+.md_43 ul li a img {
+	 width:100%;
+	 height:160px;
+	
+	}
+a,link{color: #000;}
+#p_top{
+	 width:100%; height:25px;
+	}
+#p_bot{ font-style:normal;padding-top:10px;
+	}
+
+.md_43 {
+	 padding-bottom:30px;
+	 magin-top:30px;
+	 height:450px;	
+	}
+.top_ads{
+	
+	width:100%;}
+.top_ads ul li a img{
+	width: 50%;
+	height:210px;
+	float:left;
+	
+	;
+	
+}
+.tintuc li.active a,.tintuc li.active a:hover,.tintuc li.active a:focus{color:#FFF;background-color:#F5675A;border:1px solid #ddd;border-bottom-color:transparent;cursor:default}
+.tintuc{border-bottom:2px solid #F5675A}
+
+.tag_follow ul li a img{
+	width: 100%;
+	margin-bottom:20px;
+	padding-top:0px
+	;
+	
+}
+.fb table tr td img{
+	width: 100%;
+	margin-bottom:15px;
+	
+}
+#img{
+	
+	width:120px;}
+.timkiem{ 
+	}

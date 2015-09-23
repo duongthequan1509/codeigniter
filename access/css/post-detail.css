@@ -1,0 +1,600 @@
+
+.title-postdetail, .post-detail .post-left .box-more-post p {
+    color: #0fa19f;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.btn-group-post, .post-detail .post-left .post-body .box-post-info .btn-group, .post-detail .post-left .box-comment .list-comment .comment-container .content-comment .btn-group {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.btn-group-post a, .post-detail .post-left .post-body .box-post-info .btn-group a, .post-detail .post-left .box-comment .list-comment .comment-container .content-comment .btn-group a {
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    height: 20px;
+    margin-right: 5px;
+    width: 20px;
+}
+.btn-group-post a.btn-edit-post, .post-detail .post-left .post-body .box-post-info .btn-group a.btn-edit-post, .post-detail .post-left .box-comment .list-comment .comment-container .content-comment .btn-group a.btn-edit-post {
+    background: rgba(0, 0, 0, 0) url("../img/icon-edit.png") repeat scroll 0 0;
+}
+.btn-group-post a.btn-edit-post:hover, .post-detail .post-left .post-body .box-post-info .btn-group a.btn-edit-post:hover, .post-detail .post-left .box-comment .list-comment .comment-container .content-comment .btn-group a.btn-edit-post:hover {
+    background: rgba(0, 0, 0, 0) url("../img/icon-edit-hover.png") repeat scroll 0 0;
+}
+.btn-group-post a.btn-delete-post, .post-detail .post-left .post-body .box-post-info .btn-group a.btn-delete-post, .post-detail .post-left .box-comment .list-comment .comment-container .content-comment .btn-group a.btn-delete-post {
+    background: rgba(0, 0, 0, 0) url("../img/icon-delete.png") repeat scroll 0 0;
+}
+.btn-group-post a.btn-delete-post:hover, .post-detail .post-left .post-body .box-post-info .btn-group a.btn-delete-post:hover, .post-detail .post-left .box-comment .list-comment .comment-container .content-comment .btn-group a.btn-delete-post:hover {
+    background: rgba(0, 0, 0, 0) url("../img/icon-delete-hover.png") repeat scroll 0 0;
+}
+.btn-group-post a.btn-unpublished-post, .post-detail .post-left .post-body .box-post-info .btn-group a.btn-unpublished-post, .post-detail .post-left .box-comment .list-comment .comment-container .content-comment .btn-group a.btn-unpublished-post {
+    background: rgba(0, 0, 0, 0) url("../img/icon-draft.png") repeat scroll 0 0;
+}
+.btn-group-post a.btn-unpublished-post:hover, .post-detail .post-left .post-body .box-post-info .btn-group a.btn-unpublished-post:hover, .post-detail .post-left .box-comment .list-comment .comment-container .content-comment .btn-group a.btn-unpublished-post:hover {
+    background: rgba(0, 0, 0, 0) url("../img/icon-draft-hover.png") repeat scroll 0 0;
+}
+.btn-group-post a.btn-edit, .post-detail .post-left .post-body .box-post-info .btn-group a.btn-edit, .post-detail .post-left .box-comment .list-comment .comment-container .content-comment .btn-group a.btn-edit {
+    background: rgba(0, 0, 0, 0) url("../img/icon-edit.png") repeat scroll 0 0;
+}
+.btn-group-post a.btn-edit:hover, .post-detail .post-left .post-body .box-post-info .btn-group a.btn-edit:hover, .post-detail .post-left .box-comment .list-comment .comment-container .content-comment .btn-group a.btn-edit:hover {
+    background: rgba(0, 0, 0, 0) url("../img/icon-edit-hover.png") repeat scroll 0 0;
+}
+.btn-group-post a.btn-delete, .post-detail .post-left .post-body .box-post-info .btn-group a.btn-delete, .post-detail .post-left .box-comment .list-comment .comment-container .content-comment .btn-group a.btn-delete {
+    background: rgba(0, 0, 0, 0) url("../img/icon-delete.png") repeat scroll 0 0;
+}
+.btn-group-post a.btn-delete:hover, .post-detail .post-left .post-body .box-post-info .btn-group a.btn-delete:hover, .post-detail .post-left .box-comment .list-comment .comment-container .content-comment .btn-group a.btn-delete:hover {
+    background: rgba(0, 0, 0, 0) url("../img/icon-delete-hover.png") repeat scroll 0 0;
+}
+.btn-group-post a.btn-unpublished, .post-detail .post-left .post-body .box-post-info .btn-group a.btn-unpublished, .post-detail .post-left .box-comment .list-comment .comment-container .content-comment .btn-group a.btn-unpublished {
+    background: rgba(0, 0, 0, 0) url("../img/icon-draft.png") repeat scroll 0 0;
+}
+.btn-group-post a.btn-unpublished:hover, .post-detail .post-left .post-body .box-post-info .btn-group a.btn-unpublished:hover, .post-detail .post-left .box-comment .list-comment .comment-container .content-comment .btn-group a.btn-unpublished:hover {
+    background: rgba(0, 0, 0, 0) url("../img/icon-draft-hover.png") repeat scroll 0 0;
+}
+.post-detail {
+    margin: 45px 0;
+}
+.post-detail .post-left {
+    padding-left: 0;
+}
+.post-detail .post-left .post-body .box-post-info .btn-group {
+    float: left;
+    margin-right: 5px;
+    position: inherit;
+}
+.post-detail .post-left .post-body .box-post-info .post-info {
+    display: inline-block;
+    float: left;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 300;
+}
+.post-detail .post-left .post-body .box-post-info .post-info span {
+    color: #53b7b6;
+}
+.post-detail .post-left .post-body .box-post-info .post-info a {
+    color: #53b7b6;
+    font-weight: 400;
+}
+.post-detail .post-left .post-body .box-post-info .post-info a:hover {
+    text-decoration: underline;
+}
+.post-detail .post-left .post-body .post-text-content {
+    font-size: 15px;
+    margin-bottom: 45px;
+}
+.post-detail .post-left .post-body .post-text-content p {
+    color: #505050;
+    font-size: 1em;
+    line-height: 1.7em;
+    margin: 1.7em 0;
+}
+.post-detail .post-left .post-body .post-text-content h1, .post-detail .post-left .post-body .post-text-content h2, .post-detail .post-left .post-body .post-text-content h3, .post-detail .post-left .post-body .post-text-content h4, .post-detail .post-left .post-body .post-text-content h5, .post-detail .post-left .post-body .post-text-content h6, .post-detail .post-left .post-body .post-text-content .h1, .post-detail .post-left .post-body .post-text-content .h2, .post-detail .post-left .post-body .post-text-content .h3, .post-detail .post-left .post-body .post-text-content .h4, .post-detail .post-left .post-body .post-text-content .h5, .post-detail .post-left .post-body .post-text-content .h6 {
+    font-weight: 300;
+    margin: 1.5em 0 1.2em;
+}
+.post-detail .post-left .post-body .post-text-content strong {
+    font-size: 1em;
+    font-weight: bold;
+}
+.post-detail .post-left .post-body .post-text-content pre .ace-clouds {
+    padding: 10px;
+}
+.post-detail .post-left .post-body .post-text-content li {
+    margin: 1em 0;
+}
+.post-detail .post-left .post-body .post-text-content li p {
+    margin: 0;
+}
+.post-detail .post-left .post-body .post-text-content img {
+    margin: 20px auto;
+    max-width: 100% !important;
+    text-align: center;
+}
+.post-detail .post-left .post-body .post-text-content blockquote {
+    font-size: 14px;
+    font-weight: 300;
+}
+.post-detail .post-left .post-body .post-text-content .thumbnail-img img {
+    height: 250px;
+    margin: 20px auto;
+    max-width: 840px;
+    text-align: center;
+}
+.post-detail .post-left .post-body .post-text-content p {
+    max-width: 840px;
+}
+.post-detail .post-left .post-body .post-text-content .post-cover-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.post-detail .post-left .icon-like-share-social {
+    margin-bottom: 40px;
+}
+.post-detail .post-left .bloger-like {
+    clear: both;
+    height: 70px;
+    margin-bottom: 25px;
+    padding-top: 20px;
+}
+.post-detail .post-left .bloger-like .ellipsis {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+.post-detail .post-left .bloger-like .btn-stock {
+    background: rgba(0, 0, 0, 0) url("../img/btn-bloger-like-focus.png") repeat scroll center center;
+    border: medium none;
+    cursor: pointer;
+    float: left;
+    height: 44px;
+    margin-right: 15px;
+    width: 113px;
+}
+.post-detail .post-left .bloger-like .btn-unstock {
+    background: rgba(0, 0, 0, 0) url("../img/btn-bloger-like.png") repeat scroll center center;
+    border: medium none;
+    cursor: pointer;
+    float: left;
+    height: 44px;
+    margin-right: 15px;
+    width: 113px;
+}
+.post-detail .post-left .bloger-like .bloger-list {
+    float: left;
+    margin-bottom: 0;
+    padding: 0;
+}
+.post-detail .post-left .bloger-like .bloger-list .user-favorite-list {
+    float: left;
+    list-style: outside none none;
+    margin-right: 10px;
+}
+.post-detail .post-left .bloger-like .bloger-list .user-favorite-list a {
+    background-position: center center !important;
+    background-size: auto 100% !important;
+    border-radius: 20px;
+    display: inline-block;
+    height: 40px;
+    transition: background-size 0.2s ease-in 0s;
+    width: 40px;
+}
+.post-detail .post-left .bloger-like .bloger-list .user-favorite-list a:hover {
+    background-size: auto 120% !important;
+}
+.post-detail .post-left .bloger-like span {
+    color: #8b8b8b;
+    float: left;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 40px;
+}
+.post-detail .post-left .bloger-like span a {
+    color: #0fa19f;
+}
+.post-detail .post-left .bloger-like span a:hover {
+    text-decoration: underline;
+}
+.post-detail .post-left .box-comment .title-comment {
+    border-bottom: 1px solid #e9e9e9;
+    border-top: 1px solid #e9e9e9;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 40px;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+.post-detail .post-left .box-comment .list-comment .comment-container {
+    border-bottom: 1px solid #e9e9e9;
+    margin: 0 0 20px;
+    padding-bottom: 10px;
+}
+.post-detail .post-left .box-comment .list-comment .comment-container > a {
+    background-position: center center !important;
+    background-size: cover !important;
+    border-radius: 32.5px;
+    display: inline-block;
+    float: left;
+    height: 65px;
+    margin-right: 25px;
+    width: 65px;
+}
+.post-detail .post-left .box-comment .list-comment .comment-container .content-comment {
+    float: left;
+    position: relative;
+    width: 89%;
+}
+.post-detail .post-left .box-comment .list-comment .comment-container .content-comment .name-bloger-c {
+    color: #0fa19f;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.post-detail .post-left .box-comment .list-comment .comment-container .content-comment .name-bloger-c .date-time-comment {
+    color: #000101;
+    font-size: 13px;
+    font-weight: 300;
+}
+.post-detail .post-left .box-comment .list-comment .comment-container .content-comment .name-bloger-c a {
+    color: #000;
+}
+.post-detail .post-left .box-comment .list-comment .comment-container .content-comment .contribution {
+    color: #53b7b6;
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.post-detail .post-left .box-comment .list-comment .comment-container .content-comment .display-comment {
+    color: #2e2e2e;
+    font-size: 13px;
+    font-weight: 300;
+}
+.post-detail .post-left .box-comment .list-comment .comment-container .content-comment .display-comment img {
+    max-width: 745px;
+}
+.post-detail .post-left .box-comment .write-comment p {
+    color: #000;
+    float: left;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.post-detail .post-left .box-comment .write-comment textarea {
+    background-color: #f9f9f9;
+    border: 1px solid #c4c4c4;
+    color: #9e9e9e;
+    height: 220px;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    width: 100%;
+}
+.post-detail .post-left .box-comment .write-comment button {
+    line-height: 35px;
+}
+.post-detail .post-left .box-comment .write-comment button:hover {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 2px solid #53b7b6;
+    color: #53b7b6;
+    line-height: 31px;
+    padding: 0 18px;
+}
+.post-detail .post-left .box-comment .write-comment button.btn-comment-cancel {
+    margin-right: 0;
+}
+.post-detail .post-left .box-comment .write-comment .comment .nav-tabs {
+    border-bottom: medium none;
+}
+.post-detail .post-left .box-comment .write-comment .comment .nav-tabs li a {
+    color: #53b7b6;
+}
+.post-detail .post-left .box-comment .write-comment .fa-cloud-upload::before {
+    margin-right: 5px;
+}
+.post-detail .post-left .shareable {
+    border-top: medium none;
+}
+.post-detail .post-left {
+    padding-right: 0;
+}
+.post-detail .post-left .post-author {
+    margin-bottom: 0;
+}
+.post-detail .post-left .post-author img {
+    background-position: center center;
+    background-size: cover;
+    float: left;
+    height: 100px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    width: 100px;
+}
+.post-detail .post-left .post-author a.name {
+    color: #0fa19f;
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.post-detail .post-left .post-author .btn-post-follow a {
+    border-radius: 2px;
+    color: #575757;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+    padding-left: 0;
+    text-align: left;
+}
+.post-detail .post-left .post-author .btn-post-follow a.col-lg-6 {
+    float: left;
+    margin-right: 0;
+}
+.post-detail .post-left .post-author .btn-post-follow a:hover {
+    background-color: #57b8b7;
+    color: #fff;
+}
+.post-detail .post-left .post-author .btn-follow-author, .post-detail .post-left .post-author .relationship-container {
+    margin-bottom: 15px;
+}
+.post-detail .post-left .post-author .btn-follow-author button, .post-detail .post-left .post-author .relationship-container button {
+    background: #57b8b7 none no-repeat scroll left 60px center;
+    border: medium none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    height: 33px;
+    margin-bottom: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+.post-detail .post-left .post-author .btn-follow-author button:focus, .post-detail .post-left .post-author .relationship-container button:focus {
+    background-color: #8b8b8b;
+    outline: medium none;
+}
+.post-detail .post-left .post-author .btn-follow-author .unfollow-btn {
+    background-color: #e9e9e9;
+    color: #a5a5a5;
+}
+.post-detail .post-left .post-author .list-number-social {
+    background-color: #f6f6f6;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    padding: 10px 10px 5px 23px;
+}
+.post-detail .post-left .post-author .list-number-social p {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.post-detail .post-left .post-author .list-number-social a {
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+}
+.post-detail .post-left .post-author .list-number-social a:hover {
+    text-decoration: underline;
+}
+.post-detail .post-left .author-tag {
+    margin-bottom: 10px;
+}
+.post-detail .post-left .author-tag p {
+    color: #0fa19f;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.post-detail .post-left .author-tag p .glyphicon {
+    margin-right: 5px;
+}
+.post-detail .post-left .author-tag a {
+    border-radius: 2px;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 100;
+    margin-bottom: 10px;
+    padding: 1px 6px;
+}
+.post-detail .post-left .author-tag a:hover {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 1px solid #545454;
+    color: #000;
+    padding: 0 5px;
+}
+.post-detail .post-left .author-tag .js {
+    background-color: #c8bd72;
+}
+.post-detail .post-left .author-tag .html {
+    background-color: #f1662a;
+}
+.post-detail .post-left .author-tag .css {
+    background-color: #33a9dc;
+}
+.post-detail .post-left .author-tag .ios {
+    background-color: #b2b2b2;
+}
+.post-detail .post-left .author-tag .android {
+    background-color: #97c040;
+}
+.post-detail .post-left .author-tag .php {
+    background-color: #6b7eb9;
+}
+.post-detail .post-left .author-tag .ruby {
+    background-color: #bd1103;
+}
+.post-detail .post-left .author-tag .java {
+    background-color: #e77104;
+}
+.post-detail .post-left .author-tag .objective-c {
+    background-color: #767474;
+}
+.post-detail .post-left .author-tag .vi {
+    background-color: #019833;
+}
+.post-detail .post-left .author-tag .python {
+    background-color: #938a6d;
+}
+.post-detail .post-left .author-tag .git {
+    background-color: #c77c6f;
+}
+.post-detail .post-left .author-tag .shell {
+    background-color: #fbbb76;
+}
+.post-detail .post-left .author-tag .cpp {
+    background-color: #669ad3;
+}
+.post-detail .post-left .author-tag .jquery {
+    background-color: #5f9dd0;
+}
+.post-detail .post-left .author-tag .github {
+    background-color: #3f82c4;
+}
+.post-detail .post-left .author-tag .c {
+    background-color: #8d8f9b;
+}
+.post-detail .post-left .author-tag .linux {
+    background-color: #edc59b;
+}
+.post-detail .post-left .author-tag .cs {
+    background-color: #647398;
+}
+.post-detail .post-left .author-tag .mac {
+    background-color: #5a5a5a;
+}
+.post-detail .post-left .author-tag .mysql {
+    background-color: #37565e;
+}
+.post-detail .post-left .author-tag .emac {
+    background-color: #6562a5;
+}
+.post-detail .post-left .author-tag .nodejs {
+    background-color: #9bbe74;
+}
+.post-detail .post-left .author-tag .rails {
+    background-color: #d00000;
+}
+.post-detail .post-left .author-tag .chrome {
+    background-color: #3b985a;
+}
+.post-detail .post-left .author-tag .pear {
+    background-color: #868686;
+}
+.post-detail .post-left .author-tag .regex {
+    background-color: #7a4a90;
+}
+.post-detail .post-left .author-tag .apache {
+    background-color: #c24d74;
+}
+.post-detail .post-left .author-tag .centos {
+    background-color: #934a82;
+}
+.post-detail .post-left .author-tag .csharp {
+    background-color: #545353;
+}
+.post-detail .post-left .author-tag .ssh {
+    background-color: #9696f7;
+}
+.post-detail .post-left .author-tag .nginx {
+    background-color: #539070;
+}
+.post-detail .post-left .author-tag .ubuntu {
+    background-color: #da876a;
+}
+.post-detail .post-left .author-tag .mongodb {
+    background-color: #94795d;
+}
+.post-detail .post-left .author-tag .swift {
+    background-color: #e78874;
+}
+.post-detail .post-left .author-tag .agile {
+    background-color: #59a6a1;
+}
+.post-detail .post-left .author-tag .scheme {
+    background-color: #e1c00f;
+}
+.post-detail .post-left .author-tag .heroku {
+    background-color: #3f82c4;
+}
+.post-detail .post-left .author-tag .win {
+    background-color: #78c3df;
+}
+.post-detail .post-left .author-tag .unity {
+    background-color: #696868;
+}
+.post-detail .post-left .author-tag .net {
+    background-color: #486161;
+}
+.post-detail .post-left .author-tag .sql {
+    background-color: #e28e8b;
+}
+.post-detail .post-left .author-tag .no-sql {
+    background-color: #4c7791;
+}
+.post-detail .post-left .author-tag .css3 {
+    background-color: #33a9dc;
+}
+.post-detail .post-left .author-tag .html5 {
+    background-color: #e54d26;
+}
+.post-detail .post-left .author-tag .other {
+    background-color: #6badad;
+}
+.post-detail .post-left .box-more-post {
+    margin-bottom: 20px;
+}
+.post-detail .post-left .box-more-post p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.post-detail .post-left .box-more-post .list-more-post {
+    background-color: #f6f6f6;
+    border-radius: 3px;
+    padding: 20px 8px 10px;
+}
+.post-detail .post-left .box-more-post .list-more-post .post-title {
+    border-bottom: 1px solid #d8d8d8;
+    margin-bottom: 14px;
+}
+.post-detail .post-left .box-more-post .list-more-post .post-title a {
+    color: #0fa19f;
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 7px;
+    padding: 0 7px;
+}
+.post-detail .post-left .box-more-post .list-more-post .post-title a:hover {
+    text-decoration: underline;
+}
+.post-detail .post-left .box-more-post .list-more-post .post-title a.name-author {
+    color: #848484;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.post-detail .post-left .box-more-post .list-more-post .post-title:last-child {
+    border-bottom: medium none;
+}
+pre {
+    background-color: #272822;
+    color: #fff;
+}
+.countdown span.item-hh,
+.countdown span.item-mm,
+.countdown span.item-ss,
+.countdown span.separator{
+    font-size: 40px;
+    color:#e03d57;
+    font-weight: bold;
+}
